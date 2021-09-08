@@ -45,7 +45,7 @@ if not client.is_user_authorized():
 
 chats = []
 last_date = None
-amountofgroups = 22 #count the amount of groups your shillaccount has joined and put the amount there.
+amountofgroups = 100 #count the amount of groups your shillaccount has joined and put the amount there.
 groups=[] # if you really want to specify the groups you want to send to you can write them inside their, otherwise it will send to all of them
 
 result = client(GetDialogsRequest(
